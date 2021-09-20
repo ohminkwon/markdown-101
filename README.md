@@ -185,6 +185,12 @@ $ git log
 $ git remote add origin 'url'
 $ git push origin master
 ```
+
+Git 이전 버전으로 
+  
+```bash
+$ git reset --hard HEAD~1
+```
 <br/>
 plaintext 표현
 
