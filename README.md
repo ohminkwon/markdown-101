@@ -186,11 +186,18 @@ $ git remote add origin 'url'
 $ git push origin master
 ```
 
-Git 이전 버전으로 
+Git 이전 버전으로 한번 되돌리기
   
 ```bash
 $ git reset --hard HEAD~1
 ```
+
+Git 버전 되돌리기 취소
+  
+```bash
+$ git reset --hard ORIG_HEAD
+```
+ 
 <br/>
 plaintext 표현
 
